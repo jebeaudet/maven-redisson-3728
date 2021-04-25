@@ -47,8 +47,8 @@ under the License.
 
   <properties>
     <maven.version>3.0.5</maven.version>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <classWorldsVersion>2.6.0</classWorldsVersion>
     <commonsCliVersion>1.4</commonsCliVersion>
     <commonsLangVersion>3.8.1</commonsLangVersion>
@@ -65,7 +65,7 @@ under the License.
     <cipherVersion>1.8</cipherVersion>
     <modelloVersion>1.11</modelloVersion>
     <jxpathVersion>1.3</jxpathVersion>
-    <resolverVersion>1.6.3</resolverVersion>
+    <resolverVersion>1.7.1</resolverVersion>
     <slf4jVersion>1.7.30</slf4jVersion>
     <xmlunitVersion>2.2.1</xmlunitVersion>
     <powermockVersion>1.7.4</powermockVersion>
@@ -628,7 +628,8 @@ under the License.
           <excludes combine.children="append">
             <exclude>bootstrap/**</exclude>
             <exclude>README.bootstrap.txt</exclude>
-            <exclude>README.md</exclude>
+	    <exclude>README.md</exclude>
+		    <exclude>src/main/appended-resources/licenses/unrecognized-javax.annotation-api-1.3.2.txt</exclude>
           </excludes>
         </configuration>
       </plugin>
